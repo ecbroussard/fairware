@@ -21,6 +21,10 @@ body {
 	margin-right: auto;
 }
 
+#content {
+	display: flex;
+}
+
 #banner {
 	width: 960px;
 	height: 200px;
@@ -66,8 +70,6 @@ body {
 
 #testimonials {
 	background-color: #4ebfde;
-	border-left: 3px solid black;
-	border-right: 3px solid black;
 }
 
 #main {
@@ -83,12 +85,13 @@ body {
 	width: 25%;
 	display: inline-block;
 	vertical-align: top;
+	background-color: #f16e5b;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
 }
 
 #social {
 	background-color: #f16e5b;
-	border-left: 3px solid black;
-	border-right: 3px solid black;
 	border-top: 3px solid black;
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -211,8 +214,6 @@ h2 {
 
 #favephotos {
 	background-color: #b5d555;
-	border-left: 3px solid black;
-	border-right: 3px solid black;
 	border-top: 3px solid black;
 	padding-top: 20px;
 	padding-bottom: 5px;
@@ -272,7 +273,7 @@ hr {
 	margin-top: 20px;
 }
 
-#gapfiller {
+/*#gapfiller {
 	background-color: #f16e5b;
 	border-left: 3px solid black;
 	border-right: 3px solid black;
@@ -288,4 +289,4 @@ hr {
 
 #gapfiller.contact {
 	height: 20px;
-}
+}*/
