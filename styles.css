@@ -43,7 +43,7 @@ body {
 #navigation {
 	background-color: black;
 	width: 960px;
-	height: 50px;
+	height: 60px;
 	clear: both;
 	text-align: center;
 }
@@ -53,7 +53,7 @@ body {
 	margin: 30px;
 	font-family: 'Just Me Again Down Here', cursive;
 	font-size: 45px;
-	margin-top: 20px;
+	line-height: 60px;
 }
 
 #navigation a {
@@ -136,7 +136,6 @@ h2 {
 	font-family: 'Just Me Again Down Here', cursive;
 	text-align: center;
 	font-size: 45px;
-	border-top: 1px solid black;
 	padding-top: 30px;
 }
 
@@ -263,4 +262,18 @@ p.contact a {
 
 #main a:hover {
 	color: #b5d555;
+}
+
+hr {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+	width: 90%;
+}
+
+#socialcontent {
+	margin-top: 23px;
+	margin-bottom: 43px;
 }
