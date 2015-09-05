@@ -1,0 +1,266 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	background-image: url("images/fireworks.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #dcdcd3;
+}
+
+#banner {
+	width: 960px;
+	height: 200px;
+	float: right;
+	background-image: url("images/banner.jpg");
+}
+
+#logo {
+	width: 240px;
+	height: 200px;
+	float: left;
+}
+
+#logo img {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#navigation {
+	background-color: black;
+	width: 960px;
+	height: 50px;
+	clear: both;
+	text-align: center;
+}
+
+#navigation li {
+	display: inline;
+	margin: 30px;
+	font-family: 'Just Me Again Down Here', cursive;
+	font-size: 45px;
+	margin-top: 20px;
+}
+
+#navigation a {
+	text-decoration: none;
+	color: #dcdcd3;
+}
+
+#navigation a:hover {
+	color: #b5d555;
+}
+
+#testimonials {
+	width: 230px;
+	height: 320px;
+	float: left;
+	background-color: #4ebfde;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+}
+
+#main {
+	width:720px;
+	float: right;
+}
+
+#social {
+	width: 230px;
+	height: 300px;
+	clear: left;
+	background-color: #f16e5b;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	border-top: 3px solid black;
+}
+
+#footer {
+	background-color: black;
+	width: 960px;
+	height: 60px;
+	color: #dcdcd3;
+	text-align: center;
+	padding-top: 15px;
+	clear: both;
+}
+
+#footer li {
+	display: inline;
+	margin: 5px;
+	padding-left: 10px;
+}
+
+#services, #contact {
+	border-left: solid #dcdcd3 1px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #dcdcd3;
+}
+
+#footer a:hover {
+	color: #b5d555;
+}
+
+#footer p {
+	margin-top: 10px;
+}
+
+h1 {
+	font-family: 'Fredoka One', Helvetica, Arial, sans-serif;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 50px;
+	text-shadow: 3px 3px 0 #f16e5b;
+	-webkit-text-shadow: 3px 3px 0 #f16e5b;
+	-moz-text-shadow: 3px 3px 0 #f16e5b;
+}
+
+h2 {
+	font-family: 'Just Me Again Down Here', cursive;
+	text-align: center;
+	font-size: 45px;
+	border-top: 1px solid black;
+	padding-top: 30px;
+}
+
+#main img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border: 3px solid black;
+}
+
+#main p {
+	margin: 40px;
+}
+
+#main p.contact {
+	text-align: center;
+	line-height: 10px;
+}
+
+#quote {
+	display: block;
+	font-family: 'Fredoka One', Helvetica, Arial, sans-serif;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 20px;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+#quote::before{
+	content: "\201C";
+	font-family: 'Fredoka One', Helvetica, Arial, sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	padding-right: 10px;
+	vertical-align: top;
+}
+
+#quote::after{
+	content: "\201D";
+	font-family: 'Fredoka One', Helvetica, Arial, sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	padding-left: 10px;
+	vertical-align: top;
+}
+
+#attribute {
+	padding: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: right;
+}
+
+#social ul li {
+	display: inline;
+	padding: 3px;
+}
+
+#socialtoprow, #socialbottomrow {
+	padding-top: 15px;
+	text-align: center;
+}
+
+#favephotos {
+	width: 230px;
+	height: 2000px;
+	clear: left;
+	background-color: #b5d555;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	border-top: 3px solid black;
+}
+
+#main ul {
+	text-align: center;
+	list-style-type: none;
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#favephotos img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 3px solid black;
+
+}
+
+#favephotos ul {
+	list-style-type: none;
+}
+
+#favephotos ul li.text {
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 35px;
+	font-size: 18px;
+}
+
+#favephotos li {
+}
+
+p.contact a {
+	color: black;
+	text-decoration: none;
+}
+
+#testimonialscontact {
+	width: 230px;
+	height: 430px;
+	float: left;
+	background-color: #4ebfde;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+}
+
+#main a:hover {
+	color: #b5d555;
+}
