@@ -19,7 +19,6 @@ body {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #dcdcd3;
 }
 
 #banner {
@@ -66,27 +65,33 @@ body {
 }
 
 #testimonials {
-	width: 230px;
-	height: 320px;
-	float: left;
 	background-color: #4ebfde;
 	border-left: 3px solid black;
 	border-right: 3px solid black;
 }
 
 #main {
-	width:720px;
-	float: right;
+	width: 75%;
+	display: inline-block;
+	vertical-align: top;
+	margin: auto;
+	background-color: #dcdcd3;
+}
+
+#leftcolumn {
+	float: left;
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
 }
 
 #social {
-	width: 230px;
-	height: 300px;
-	clear: left;
 	background-color: #f16e5b;
 	border-left: 3px solid black;
 	border-right: 3px solid black;
 	border-top: 3px solid black;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 #footer {
@@ -136,7 +141,6 @@ h2 {
 	font-family: 'Just Me Again Down Here', cursive;
 	text-align: center;
 	font-size: 45px;
-	padding-top: 30px;
 }
 
 #main img {
@@ -148,7 +152,10 @@ h2 {
 }
 
 #main p {
-	margin: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 #main p.contact {
@@ -203,13 +210,12 @@ h2 {
 }
 
 #favephotos {
-	width: 230px;
-	height: 2000px;
-	clear: left;
 	background-color: #b5d555;
 	border-left: 3px solid black;
 	border-right: 3px solid black;
 	border-top: 3px solid black;
+	padding-top: 20px;
+	padding-bottom: 5px;
 }
 
 #main ul {
@@ -251,15 +257,6 @@ p.contact a {
 	text-decoration: none;
 }
 
-#testimonialscontact {
-	width: 230px;
-	height: 430px;
-	float: left;
-	background-color: #4ebfde;
-	border-left: 3px solid black;
-	border-right: 3px solid black;
-}
-
 #main a:hover {
 	color: #b5d555;
 }
@@ -271,9 +268,24 @@ hr {
 	border-style: inset;
 	border-width: 1px;
 	width: 90%;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
-#socialcontent {
-	margin-top: 23px;
-	margin-bottom: 43px;
+#gapfiller {
+	background-color: #f16e5b;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+}
+
+#gapfiller.index {
+	height: 32px;
+}
+
+#gapfiller.services {
+	height: 5px;
+}
+
+#gapfiller.contact {
+	height: 20px;
 }
